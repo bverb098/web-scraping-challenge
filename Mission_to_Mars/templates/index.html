@@ -48,7 +48,7 @@
         <div class="row">
             {% for item in mars.hemispheres %}
             <div class="col-md-6 hemisphere">
-                <img class="img-responsive" src="{{item.img_url}}" alt="{{item.title}}">
+                <img src="{{item.img_url}}" alt="{{item.title}}" max-width=100%>
                     <h2 class="text-center"><b>{{item.title}}</b></h2>
             </div>
             {% endfor %}       
